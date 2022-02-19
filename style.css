@@ -1,9 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
 .header {
     background: #1f2937;
-    border-bottom: 1px solid #ddd;
+    color: #e5e7eb;
+    
+    padding: 200px;
+
+}
+
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 5px;
+}
+
+.leaflet {
     
 }
-.logo {
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+  }
+
+.items {
+    display: flex;
+      justify-items:center;
+      
+}
+  
+.button{
+    background-color: #3882f6;
+}
+
+
+.links {
+    font-size: 18px;
+
+    display: flex;
+    justify-content: right;
 
 }
 
@@ -11,4 +52,10 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
