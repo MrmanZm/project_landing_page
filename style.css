@@ -1,5 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
   }
 
   .heading {
@@ -11,7 +13,7 @@ body {
   }
 
 .header {
-   padding: 150px;
+   padding: 100px;
    padding-top: 20px;
 
 }
@@ -29,25 +31,56 @@ body {
     padding: 5px;
 }
 
-
-
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    
-  }
-
-.items {
-    display: flex;
-      justify-items:center;
-      
+.infowrap {
+     background-color: white;
+     margin-left: 120px;
+     padding-bottom: 200px;
+     padding-top: 50px;
 }
+
+.box{
+   
+    height: 100px;
+    display: flex;
+    margin: 10px;
+    color: white;
+    border: rgb(94, 155, 206) solid;
+    border-radius: 6px;
+ }
+ 
+ .box,.textbox{
+    width: 20%;
+    float: left;
+ }
+ 
+ .textbox{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+ }
   
-.button{
+.button1 {
     background-color: #3882f6;
+    border-radius: 6px;
+    border-style:hidden;
+    font-size: 18px;
+    color: white;
+    width: 130px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.button2{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    width: 130px;
+    border-radius: 6px;
+    border: white solid;
+    
     
 }
+
 
 
 .links {
@@ -56,41 +89,87 @@ body {
     display: flex;
     justify-content: right;
     color: #e5e7eb;
+    list-style-type:none;
+    text-decoration: none;
 
+}
+
+.herowrap{
+     width: 300px
 }
 
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    width: 500px;
-    padding-top: 100px;
+   
+    
 }
 
 .placeholder {
+   
     background-color: grey;
     
-    padding: 60px;
-    margin-left: 700px;
+    padding: 110px;
+    margin-left: 500px;
     text-align: center;
+    justify-items: center;
+    margin-top: -200px;
 }
 
-.leaflet {
-    width: 360px;
+.thiswebsite {
+    
 }
 
 .information {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
+    padding-top: 50px;
+    
 }
 
-.quote {
+.quotebox {
+    display: inline-flex;
     background-color: #e5e7eb;
+}
+
+.quotetext {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 70px;
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:flex
 }
+
+.callto {
+    font-size: 25px;
+   
+    
+}
+
+.bluebox {
+    background-color: #3882f6;
+    
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    padding: 50px
+    
+
+}
+
+.blueboxwrap {
+    width: 800px;
+    height: 50px;
+}
+
+
