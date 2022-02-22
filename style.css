@@ -5,16 +5,21 @@ body {
   }
 
   .heading {
-      display: flex;
-       background: #1f2937;
-    color: #e5e7eb;
+      background: #1f2937;
+      color: #e5e7eb;
+      padding-bottom: 80px;
+       
+    
     
     
   }
 
 .header {
-   padding: 100px;
-   padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 100px;
+   
+   
 
 }
 
@@ -28,7 +33,10 @@ body {
     background: #1f2937;
     color: #e5e7eb;
     text-align: center;
-    padding: 5px;
+    padding: 40px;
+    font-size: 18px;
+    font: weight 100px;
+    margin-top: ;
 }
 
 .infowrap {
@@ -38,27 +46,28 @@ body {
      padding-top: 50px;
 }
 
-.box{
-   
-    height: 100px;
+.flex-container {
+    margin: 40px auto 0 auto;
+    margin-top: 0;
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    background-color: white;
+    
+  }
+  
+  .flex-container > div {
+    margin: 40px auto 0 auto;
     color: white;
-    border: rgb(94, 155, 206) solid;
-    border-radius: 6px;
- }
- 
- .box,.textbox{
-    width: 20%;
-    float: left;
- }
- 
- .textbox{
-    color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+    background-color:white;
+    border: #3d97cc solid;
+    border-radius: 10px;
+    width: 140px;
+    margin: 20px;
     text-align: center;
- }
+    line-height: 140px;
+    font-size: 20px;
+    
+  }
   
 .button1 {
     background-color: #3882f6;
@@ -81,21 +90,26 @@ body {
     
 }
 
-
+a:link{
+    color: #e5e7eb;
+    text-decoration: none;
+}
 
 .links {
     font-size: 18px;
     gap: 20px;
-    display: flex;
-    justify-content: right;
-    color: #e5e7eb;
+    display: inline-flex;
+    float: right;
     list-style-type:none;
-    text-decoration: none;
-
+    margin-top: -10px;
+   
 }
+    
+
 
 .herowrap{
-     width: 300px
+     width :380px;
+     padding-top: 100px;
 }
 
 .hero {
@@ -107,17 +121,14 @@ body {
 }
 
 .placeholder {
-   
-    background-color: grey;
-    
-    padding: 110px;
-    margin-left: 500px;
-    text-align: center;
-    justify-items: center;
-    margin-top: -200px;
-}
-
-.thiswebsite {
+   display: inline-flex;
+    background-color: hsla(207, 8%, 50%, 0.91);
+    float: right;
+    padding: 100px;
+    margin-top: -220px;
+    width: 300px;;
+    font-size: 18px;
+    color: white;
     
 }
 
@@ -133,6 +144,9 @@ body {
 .quotebox {
     display: inline-flex;
     background-color: #e5e7eb;
+    justify-items: center;
+    width: 1330px;
+    margin-top: 150px;
 }
 
 .quotetext {
@@ -140,9 +154,11 @@ body {
     font-style: italic;
     color: #1f2937;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    display:flex
+    margin-left: 300px;
+    margin-right: 100px;
+    display:inline-flex;
+    text-align: left;
+    width: 800px;
 }
 
 .callto {
@@ -171,5 +187,3 @@ body {
     width: 800px;
     height: 50px;
 }
-
-
